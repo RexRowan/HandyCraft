@@ -1,6 +1,4 @@
-.page-header { 
-  margin: 20px;
-}
+
 
 Body {
   background-image: url("http://www.ozwallpaper.com/wp-content/uploads/2016/02/Pink-Glitter-Wallpaper-Border.jpg");
@@ -10,3 +8,6 @@ Body {
   background-attachment: fixed;
 }
 
+h1 {
+  margin: 40px;
+}
