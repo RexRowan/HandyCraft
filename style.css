@@ -17,3 +17,7 @@ div.jumbotron {
   padding: 20px;
   opacity: 0.8;
 }
+
+button {
+  color: #ff0066;
+}
