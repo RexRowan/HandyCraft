@@ -15,4 +15,5 @@ div.page-header {
 div.jumbotron {
   margin: 20px;
   padding: 20px;
+  opacity: 0.5;
 }
