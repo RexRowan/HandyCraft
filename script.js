@@ -1,6 +1,8 @@
-<script>
-// Load this when the DOM is ready
-$(function(){
-  $('#myCarousel').carousel();
-});
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.carousel').carousel({
+            interval: 5000,
+            cycle: true
+        });
+    });
 </script>
