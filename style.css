@@ -8,20 +8,6 @@ Body {
   background-attachment: fixed;
 }
 
-div.page-header {
-  margin: 20px;
-}
-
-div.jumbotron {
-  margin: 20px;
-  padding: 20px;
-  opacity: 0.8;
-  color: #ff0066;
-}
-
-button {
-  color: #ff0066;
-}
 
 footer {
   position:fixed;
