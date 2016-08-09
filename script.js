@@ -1,6 +1,6 @@
 <script>
 // Load this when the DOM is ready
 $(function(){
-  $('#carousel-example-generic').carousel();
+  $('#myCarousel').carousel();
 });
 </script>
