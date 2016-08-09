@@ -25,5 +25,7 @@ carousel {
 }
 
 row {
-  mpadding: 20px;
+  padding: 20px;
+  opacity: 0.8;
+  color: #ff0066;
 }
