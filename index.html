@@ -80,34 +80,44 @@
 </section>
 
  <section class="container">
- <div id="myCarousel" class="carousel slide" data-ride="carousel">
+ <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
   </ol>
-  <!-- Carousel items -->
+ 
+  <!-- Wrapper for slides -->
   <div class="carousel-inner">
-    <div class="active item"><img src="https://rexrowan.github.io/HandyCraft/tumblr_nuuht20Et41ugyvaqo1_500.jpg" /></div>
-    <div class="item"><img src="https://rexrowan.github.io/HandyCraft/large.png" /></div>
-    <div class="item"><img src="https://rexrowan.github.io/HandyCraft/tumblr_static_cool-cute-heart-pastel-photography-favim.com-307934_large.jpg" /></div>
+    <div class="item active">
+      <img src="http://placehold.it/1200x315" alt="...">
+      <div class="carousel-caption">
+      	<h3>Caption Text</h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1200x315" alt="...">
+      <div class="carousel-caption">
+      	<h3>Caption Text</h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1200x315" alt="...">
+      <div class="carousel-caption">
+      	<h3>Caption Text</h3>
+      </div>
+    </div>
   </div>
-  <!-- Carousel nav -->
-  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-</div>
-<script type="text/javascript">
-
-var $ = jQuery.noConflict();
-
-$(document).ready(function() {
- $('#myCarousel').carousel({
-       interval: 5000,
-          cycle: true
- });
-});
-
-</script>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!-- Carousel -->
 
 </section>
 
@@ -120,7 +130,8 @@ $(document).ready(function() {
 </section>
 
 
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>
