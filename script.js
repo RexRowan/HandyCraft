@@ -1,12 +1,5 @@
-<script type="text/javascript">
-
-var $ = jQuery.noConflict();
-
-$(document).ready(function() {
- $('#myCarousel').carousel({
-       interval: 5000,
-          cycle: true
- });
-});
-
+<script>
+	$('.carousel').carousel({
+		interval: 3000
+	})
 </script>
