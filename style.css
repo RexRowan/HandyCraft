@@ -8,6 +8,11 @@ Body {
   background-attachment: fixed;
 }
 
+div.jumbotron{
+  opacity: 0.8;
+  color: #ff0066;
+}
+
 
 footer {
   position:fixed;
