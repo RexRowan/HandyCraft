@@ -1,6 +1,6 @@
 <script type="text/javascript">
     $(document).ready(function() {
-        $('.carousel').carousel({
+        $('.myCarousel').carousel({
             interval: 5000,
             cycle: true
         });
